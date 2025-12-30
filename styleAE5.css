@@ -4,18 +4,20 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    display: flex;             /* flex para centrar */
+
+    display: flex;  
+    flex-direction: column;           /* flex para centrar */
     justify-content: center;   /* centra horizontalmente */
-    align-items: flex-start;   /* empieza desde arriba */
+    align-items: center;   /* alinear el contenido */
     min-height: 100vh;         /* ocupa toda la pantalla */
 }
 
 /* Contenedor del formulario */
 form#formRegistro {
-    background-color: #ffffff;
+    background-color: #b84a8332;
     padding: 25px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.399);
     width: 90%;          /* responsivo con móviles */
     max-width: 500px;    /* no se hace gigante en PC */
     box-sizing: border-box;
@@ -25,6 +27,7 @@ form#formRegistro {
 h2 {
     text-align: center;
     margin-bottom: 20px;
+    color: #b84a83;
 }
 
 /* etiqueta */
@@ -32,6 +35,7 @@ label {
     display: block;
     margin-top: 10px;
     font-weight: 500;
+    color:#79003f;
 }
 
 /* valores que se ingresan */
@@ -41,7 +45,7 @@ input[type="number"] {
     width: 100%;
     padding: 8px;
     margin-top: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #79003f68;
     border-radius: 4px;
     box-sizing: border-box;
 }
@@ -51,20 +55,20 @@ button[type="submit"] {
     width: 100%;
     padding: 10px;
     margin-top: 15px;
-    background-color: #212529;
-    color: #fff;
+    background-color: #000000;
+    color: #b84a83;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
 button[type="submit"]:hover {
-    background-color: #424649;
+    background-color: #372936;
 }
 
 /* área del mensaje */
 #mensaje {
     margin-top: 15px;
     text-align: center;
-    font-weight: 500;
+    font-weight: 550;
 }

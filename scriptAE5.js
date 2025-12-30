@@ -20,7 +20,7 @@ formulario.addEventListener("submit", function (event) {
 
     // validación de edad
     if (isNaN(edad) || edad <= 17) {
-        mensaje.textContent = "Error: la edad debe ser un mayor a 18 años";
+        mensaje.textContent = "Error: la edad debe ser mayor a 18 años";
         return;
     }
 
