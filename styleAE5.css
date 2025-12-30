@@ -1,15 +1,22 @@
-/* Fuente limpia para toda la página */
+/* Fuente limpia para toda la página con colores */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
 
     display: flex;  
-    flex-direction: column;           /* flex para centrar */
-    justify-content: center;   /* centra horizontalmente */
-    align-items: center;   /* alinear el contenido */
-    min-height: 100vh;         /* ocupa toda la pantalla */
+    flex-direction: column;         /* flex para centrar */
+    justify-content: center;        /* centra horizontalmente */
+    align-items: center;            /* alinear el contenido */
+    min-height: 100vh;              /* ocupa toda la pantalla */
+}
+
+/* título */
+h2 {
+    text-align: center;
+    margin: 30px 0 20px 0;
+    color: #b84a83;
 }
 
 /* Contenedor del formulario */
@@ -21,13 +28,6 @@ form#formRegistro {
     width: 90%;          /* responsivo con móviles */
     max-width: 500px;    /* no se hace gigante en PC */
     box-sizing: border-box;
-}
-
-/* título */
-h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #b84a83;
 }
 
 /* etiqueta */
